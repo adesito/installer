@@ -43,7 +43,7 @@ if [ "$PLATFORM" == "$UNKNOWN" ]; then
     echo "This installer was designed for EV3Dev hardware."
     echo
     echo "Open a issue if the problem continues:"
-    echo "https://github.com/ev3dev-lang-java/ev3dev-lang-java/issues"
+    echo "https://github.com/adesito/ev3dev-lang-java/issues"
     echo
     exit 1
 fi
