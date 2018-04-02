@@ -7,7 +7,7 @@ PISTORMS="PISTORMS"
 UNKNOWN="UNKNOWN"
 PLATFORM=$UNKNOWN
 
-EV3_EV3DEV="4.4.47-19-ev3dev-ev3"
+EV3_EV3DEV="4.4.87-22-ev3dev-ev3"
 
 #1. Detect platform
 #1.1 Detect if the brick is not using latest kernel
