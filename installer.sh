@@ -17,7 +17,7 @@ function runModule(){
     if ! [ "$2" == "$OFF" ]; then
         createHeader $1
     fi
-    local domain="https://raw.githubusercontent.com/ev3dev-lang-java/installer/develop/modules"
+    local domain="https://raw.githubusercontent.com/adesito/installer/develop/modules"
     wget -N "$domain/$1.sh"
     MODULE=$1
     mv ./$1.sh ./$MODULE_FOLDER/$1.sh
